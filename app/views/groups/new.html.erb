@@ -1,0 +1,21 @@
+<%= render "shared/navbara", {text:"Add Category", path: root_path, visible:"invisible"} %>
+
+<%= form_with model: @group, url: groups_path, method: :post do |f| %>
+  <div class="card">
+    <div class="card-body">
+
+      <div class="mb-3">
+        <%= f.text_field :name, { class: "form-control", autocomplete: "Category", placeholder: "Category" } %>
+      </div>
+
+      <div class="mb-3">
+        <%= f.text_field :icon, { class: "form-control", autocomplete: "Icon url", placeholder: "Url" } %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "Add Category", data: {turbo: false}, class:"btn btn-primary" %>
+      </div>
+
+    </div>
+  </div>
+<% end %>
