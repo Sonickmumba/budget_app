@@ -129,7 +129,7 @@ It is built using Ruby on Rails.
 ## 🚀 Live video <a name="live-video"></a>
 
 - [Live video Link](https://drive.google.com/file/d/1KQV8G0I9ADZehqmSqIhIed0g705Ji97L/view?usp=sharing)
-- Comming soon
+<!-- - Comming soon -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
