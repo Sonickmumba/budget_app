@@ -10,7 +10,7 @@ gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
 gem 'sprockets-rails'
 
 # Use postgresql as the database for Active Record
-gem 'pg', '~> 1.1'
+# gem 'pg', '~> 1.1'
 
 gem 'devise'
 
@@ -75,6 +75,10 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+end
+
+group :production do
+  gem "pg", "1.3.5"
 end
 
 gem 'rubocop', '>= 1.0', '< 2.0'
