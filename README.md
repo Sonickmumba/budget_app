@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Recipe app <a name="about-project"></a>
 
-**Blog app with Rails** The Budget app is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+**Budget app** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 It is built using Ruby on Rails.
 
 # ERD Diagram
