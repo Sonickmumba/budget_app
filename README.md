@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Recipe app <a name="about-project"></a>
+# 📖 Budget app <a name="about-project"></a>
 
 **Budget app** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 It is built using Ruby on Rails.
@@ -126,10 +126,14 @@ It is built using Ruby on Rails.
 
 <!-- LIVE DEMO -->
 
+## 🚀 Live video <a name="live-video"></a>
+
+- [Live video Link](https://drive.google.com/file/d/1KQV8G0I9ADZehqmSqIhIed0g705Ji97L/view?usp=sharing)
+- Comming soon
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
-- Comming soon
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
