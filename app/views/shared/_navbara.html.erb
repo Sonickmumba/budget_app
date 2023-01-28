@@ -1,0 +1,16 @@
+<% if user_signed_in? %>
+    <nav class="navbar  register">
+      <div class="container-fluid">
+        <div class="fluid-container login w-100">
+          <div class="row w-100">
+            <h2 class="py-3 text-center text-white"><%= text %></h2>
+          </div>
+        </div>
+        <div class= "fluid-container singup d-flex position-absolute left-0 justify-content-center top-2">
+          <%= link_to groups_path, class: "button-17" do %>
+            <span class="material-symbols-outlined">navigate_before</span>
+          <% end %>
+        </div>
+      </div>
+    </nav>
+<% end %>
