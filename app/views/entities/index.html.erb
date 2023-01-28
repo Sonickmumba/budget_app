@@ -1,0 +1,61 @@
+<%= render "shared/navbara", {text:"Transactions", path: root_path, visible:"invisible"} %>
+
+<section class="container-fluid tranSec">
+  <div class="card mb-3 mt-3">
+    <div class="card-body">
+      <div class="row d-flex align-items-center">
+        <div class="col-3">
+          <img src="<%= @group.icon%>" class="img-fluid" alt="...">
+        </div>
+        <div class="col-5">
+          <h1 class="card-text opacity-50 tacname"><%= @group.name %></h1>
+        </div>
+      </div>
+    </div>
+    <div class="card-footer d-flex justify-content-between align-items-center">
+      <p class="card-text mb-0"><small class="text-muted">TOTAL PAYMENT</small></p>
+      <p class="card-text mb-0">
+      <small class="small_total_amout">
+        <% credit = 0 %>
+        <% @entities.each do |entity| %>
+          <% total_entities = @entities.count %>
+            <% credit += entity.amount.to_f %>
+        <% end %>
+        <%= "$#{credit}" %>
+      </small>
+      </p>
+    </div>
+  </div>
+
+  <div class="card container-fluid p-2 mb-2 h-50 overflow-auto">
+    <% @entities.each do |entity| %>
+      <div class="card mb-4 w-80">
+        <div class="card-body mb-2">
+          <div class="d-flex " style="flex-direction: column; gap: 20px">
+            <div class="col-3 d-flex w-100 justify-content-between">
+              <div class="card-text fs-5 text-capitalize"><%= entity.name%></div>
+              <div class="card-text fs-5">$<%= entity.amount.to_f%></div>
+            </div>
+            <span class="line" style="border-bottom: 1px solid black; width: 100%; opacity: 0.2;"></span>
+            <div class="col-5 d-flex w-100 justify-content-between">
+              <div class="card-text mb-0" style="font-size: 10px;">
+                <% time = entity.created_at %>
+                <%= time.strftime("%Y-%m-%d")%><br>
+                <%= time.strftime("%H:%M:%S")%>
+              </div>
+              <div class="del-btn">
+              <%= button_to group_entity_path(group_id: @group.id, id: entity.id), class:"btn", method: :delete do %>
+                <i class="fa fa-trash text-danger"></i>
+              <% end %>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class= "col-9">
+    <%= link_to 'Add New Transaction', new_group_entity_path(params[:group_id]), class: 'btn btn-primary' %>
+  </div>
+<section>
