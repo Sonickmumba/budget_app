@@ -133,7 +133,7 @@ It is built using Ruby on Rails.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://tranquil-waters-02647.herokuapp.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
