@@ -59,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Budget app <a name="about-project"></a>
 
-**Budget app** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+**Budget_app** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 It is built using Ruby on Rails.
 
 # ERD Diagram
@@ -131,10 +131,6 @@ It is built using Ruby on Rails.
 - [Live video Link](https://drive.google.com/file/d/1KQV8G0I9ADZehqmSqIhIed0g705Ji97L/view?usp=sharing)
 <!-- - Comming soon -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://tranquil-waters-02647.herokuapp.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -175,7 +171,7 @@ Install this project with:
 <!-- Example command: -->
 
 ```
-  cd Budget-app
+  cd budget_app
   bundle install
 ```
 -
@@ -207,6 +203,10 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://tranquil-waters-02647.herokuapp.com)
 - Comming soon
 
 <!--
