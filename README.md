@@ -207,7 +207,7 @@ You can deploy this project using:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://tranquil-waters-02647.herokuapp.com)
-- Comming soon
+<!-- - Comming soon -->
 
 <!--
 Example:
