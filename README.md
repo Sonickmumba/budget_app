@@ -270,7 +270,7 @@ If you like this project it a thumb up : 👍 and share this projects with your 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
 I would like to thank...
-- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the design.
+- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the design of the project.
 - **Microverse** for giving the opportunity to learn
 - Code reviewers and coding partners
 - Hat tip to anyone whose code was used
