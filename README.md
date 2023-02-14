@@ -240,6 +240,7 @@ Example:
 - [ ] **[Have a decent desktop design for the webapp.]**
 - [ ] **[Implement the left side menu to improve the navigability of the app.]**
 - [ ] **[implement some UX improvements: include transitions and/or animations, etc]**
+- [ ] **[Add a footer]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
