@@ -119,7 +119,7 @@ It is built using Ruby on Rails.
 - **[A registration page]**
 - **[A Category page (with all CRUD implementation, except for 'update')]**
 - **[A Transactions page (with all CRUD implementation, except for 'update')]**
-- **[Add Transactions page)]**
+- **[Add Transactions page]**
 - **[Add Category page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
