@@ -14,8 +14,7 @@ Modify this file to match your project and remove sections that don't apply.
 - Future Features
 - Contributing
 - Show your support
-- Acknowledgements
-- License
+
 
 After you're finished please remove all the comments and instructions!
 -->
