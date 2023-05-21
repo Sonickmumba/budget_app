@@ -10,9 +10,7 @@ Modify this file to match your project and remove sections that don't apply.
   - Live Demo
 - Getting Started
 - Authors
-- Future Features
-- Contributing
-- Show your support
+
 
 
 After you're finished please remove all the comments and instructions!
