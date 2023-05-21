@@ -6,9 +6,6 @@
 Modify this file to match your project and remove sections that don't apply.
 
 
-  - Built With
-  - Live Demo
-
 
 
 
