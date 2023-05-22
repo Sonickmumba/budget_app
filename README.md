@@ -40,6 +40,7 @@ It is built using Ruby on Rails.
   <summary>Languages</summary>
   <ul>
     <li><a href="https://reactjs.org/">Ruby</a></li>
+    <li><a href="https://rails.org/">Rails</a></li>
     <li><a href="https://www.javacript.com/">Javascript</a></li>
     <li><a href="https://html.com/">HTML</a></li>
     <li><a href="https://www.w3.org/Style/CSS/Overview.en.html/">CSS</a></li>
