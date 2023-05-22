@@ -1,18 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-
-
-
-
-
-
-
-
-
--->
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -39,7 +26,7 @@
 
 # 📖 Budget app <a name="about-project"></a>
 
-**Budget_app** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
+**Budget_app** is a mobile web application where one can manage their budget: have a list of transactions associated with a category, so that one can see how much money you spent and on what.
 It is built using Ruby on Rails.
 
 # ERD Diagram
