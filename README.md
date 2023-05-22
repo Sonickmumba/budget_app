@@ -159,13 +159,13 @@ To run the project, execute the following command:
 <!-- To run tests, run the following command: -->
 The app is tested using Rspec library you can check the tests by opening your terminal, then change the directory to the location of this repo using this command `cd file_path`, then run this command `gem install rspec`, finally run this command `rspec spec` or `rspec spec --format doc` for documented test results you should see a screen like that comming soon
 
-<!--
+
 Example command:
 
 ```sh
   bin/rails test test/models/article_test.rb
 ```
---->
+-
 
 ### Deployment
 
