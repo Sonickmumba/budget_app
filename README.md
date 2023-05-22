@@ -176,14 +176,6 @@ You can deploy this project using:
 - [Live Demo Link](https://tranquil-waters-02647.herokuapp.com)
 <!-- - Comming soon -->
 
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
