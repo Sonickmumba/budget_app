@@ -5,6 +5,7 @@
 
 body {
   background-color: rgb(238, 240, 239);
+  /* min-height: 100vh; */
 }
 
 .alert {
